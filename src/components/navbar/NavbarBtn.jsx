@@ -8,6 +8,7 @@ const NavbarBtn = () => {
       <Link spy={true} smooth={true} duration={500} offset={-120} to="contact">
         Hire Me
       </Link>
+
       <div className="sm:hidden md:block">
         <LuArrowDownRight />
       </div>
