@@ -1,6 +1,5 @@
 import React from "react";
 import ContactInfo from "./ContactInfo";
-import ContactSocial from "./ContactSocial";
 
 const ContactMeRight = () => {
   return (
@@ -11,7 +10,7 @@ const ContactMeRight = () => {
         className="max-w-[300px]"
       />
       <ContactInfo />
-      <ContactSocial />
+      {/* <ContactSocial /> */}
     </div>
   );
 };

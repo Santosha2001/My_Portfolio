@@ -20,9 +20,12 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
-      })
+      .sendForm(
+        "service_hdks0g9", // Replace with your EmailJS Service ID
+        "template_izp83yl", // Replace with your EmailJS Template ID
+        form.current,
+        "E0jzvu-KVdhBJczwZ" // Replace with your EmailJS Public Key
+      )
       .then(
         () => {
           setEmail("");
@@ -61,8 +64,8 @@ const ContactForm = () => {
         <textarea
           type="text"
           name="message"
-          rows="9"
-          cols="50"
+          rows="4"
+          cols="40"
           placeholder="Message"
           required
           className=" rounded-lg bg-lightBrown p-2"

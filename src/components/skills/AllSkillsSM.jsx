@@ -8,8 +8,24 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { FaJava } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 
 const skills = [
+  {
+    skill: "Java",
+    icon: FaJava,
+  },
+  {
+    skill: "Spring Boot",
+    icon: SiSpringboot,
+  },
+  {
+    skill: "MySQL",
+    icon: SiMysql,
+  },
   {
     skill: "HTML",
     icon: FaHtml5,
@@ -23,24 +39,16 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
     skill: "ReactJS",
     icon: FaReact,
   },
+  // {
+  //   skill: "Redux",
+  //   icon: SiRedux,
+  // },
   {
-    skill: "Redux",
-    icon: SiRedux,
-  },
-  {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Docker",
+    icon: FaDocker,
   },
 ];
 
