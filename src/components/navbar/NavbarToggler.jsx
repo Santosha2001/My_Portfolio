@@ -9,6 +9,7 @@ const NavbarToggler = () => {
   const setToggleMenu = () => {
     dispatch(toggleMenu());
   };
+
   return (
     <button
       className="text-1xl p-3 text-center border border-orange rounded-full"
